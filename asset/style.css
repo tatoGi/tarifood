@@ -1,0 +1,75 @@
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.navbar .nav-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .nav-item{
+    font-size: 1.2rem;
+  }
+  .navbar-brand {
+    width: 100%;
+  }
+     /* Custom CSS for the banner */
+     .banner {
+        background-image: url('/asset/images/tarifoodbanner.jpg'); /* Replace with your image path */
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 100px 20px;
+        text-align: center;
+      }
+      .banner h1 {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      .banner p {
+        font-size: 1.2rem;
+        margin: 20px 0;
+      }
+      .banner .btn {
+        background-color: #28a745;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+
+      /* Custom CSS for the slider */
+      .slider-section {
+        padding: 50px 0;
+        background-color: #f8f9fa;
+      }
+      /* Custom CSS for the carousel */
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        filter: invert(1); /* Turns the arrows black */
+      }
+
+      .carousel-item img {
+        width: 100%; /* Full width of the carousel container */
+        height: 250px; /* Fixed height for all images */
+        object-fit: cover; /* Ensures the image covers the area without distortion */
+        border-radius: 10px; /* Optional: Adds rounded corners */
+      }
+
+      .carousel-item {
+        text-align: center;
+        padding: 20px;
+      }
+
+      .carousel-item h3 {
+        margin-top: 20px;
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      .carousel-item p {
+        font-size: 1.2rem;
+        color: #555;
+      }
